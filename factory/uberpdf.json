@@ -1,0 +1,15 @@
+{
+	"name": "uberpdf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7c64079c-55a7-41c5-a134-3786cb9fa5e9",
+		"tenantId": "cb6ade15-7d14-4234-8e77-4d6508e0790f"
+	}
+}

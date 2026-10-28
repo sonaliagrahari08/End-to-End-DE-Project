@@ -1,0 +1,27 @@
+{
+	"name": "git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "git_api",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"parameter_source": {
+				"type": "array"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "sonaliagrahari08/End-to-End-DE-Project/refs/heads/main/Data/@dataset().parameter_source",
+					"type": "Expression"
+				}
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
