@@ -3,8 +3,8 @@ from pyspark.sql.functions import *
 from pyspark.sql.types import *
 
 # Event Hubs configuration
-EH_NAMESPACE                    = "ubereventhub"
-EH_NAME                         = "uber_eh"
+EH_NAMESPACE                    = ""
+EH_NAME                         = ""
 
 
 
